@@ -1,11 +1,11 @@
-# 🖼️ Picture Manipulator
+# 🖼️ Picture Basics (Interfaz)
 
-**Picture Manipulator** es una aplicación de escritorio desarrollada en **Python** usando [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter), [Pillow](https://pillow.readthedocs.io/en/stable/), y **NumPy**.  
-Permite abrir, visualizar y editar imágenes aplicando diferentes transformaciones desde una interfaz gráfica amigable y moderna.
+**Picture Basics** es una aplicación de escritorio desarrollada en **Python** usando [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter), [Pillow](https://pillow.readthedocs.io/en/stable/), y **NumPy**.  
+Permite abrir, visualizar y editar imágenes aplicando diferentes transformaciones desde una interfaz gráfica intuitiva y moderna.
 
 ---
 
-## ⚙️ Funcionalidades principales
+## Funcionalidades principales
 
 ### 🎨 Ajustes de color
 - 🔆 Brillo general o por canales (R, G, B)  
