@@ -1,66 +1,40 @@
-🖼️ Picture Manipulator — CustomTkinter Image Editor
-📌 Descripción
+# 🖼️ Picture Manipulator
 
-Aplicación de escritorio desarrollada en Python utilizando CustomTkinter y Pillow, que permite manipular imágenes mediante una interfaz intuitiva con pestañas organizadas por funciones.
+**Picture Manipulator** es una aplicación de escritorio desarrollada en **Python** usando [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter), [Pillow](https://pillow.readthedocs.io/en/stable/), y **NumPy**.  
+Permite abrir, visualizar y editar imágenes aplicando diferentes transformaciones desde una interfaz gráfica amigable y moderna.
 
-⚙️ Funcionalidades principales
+---
 
-Abrir y guardar imágenes (.jpg, .png, etc.)
+## ⚙️ Funcionalidades principales
 
-Ajustes de color:
+### 🎨 Ajustes de color
+- 🔆 Brillo general o por canales (R, G, B)  
+- ⚫ Binarización mediante umbral  
+- 🩶 Conversión a escala de grises (Promedio o Luminosidad)  
+- 🌑 Negativo  
+- 🌓 Contraste logarítmico y exponencial  
 
-Brillo general y por canales RGB
+### 🧩 Capas y visualización
+- Visualización individual de capas **RGB**  
+- Simulación de capas **CMYK**
 
-Binarización con umbral ajustable
+### 🧰 Herramientas básicas
+- ✂️ Recorte de imagen por coordenadas  
+- 🔄 Rotación manual  
+- 📉 Reducción de resolución  
+- 🔍 Zoom con clic sobre la imagen  
 
-Conversión a escala de grises (Average / Luminosity)
+### 🖼️ Fusión de imágenes
+- Permite combinar dos imágenes distintas con un **factor de mezcla ajustable**
 
-Negativo
+### 📊 Análisis
+- Generación de **histograma RGB** embebido dentro de la interfaz  
 
-Contraste logarítmico y exponencial
+---
 
-Capas RGB y CMYK (visualización individual)
+## 🪄 Uso
 
-Operaciones básicas:
+1. Ejecutar el programa desde terminal:
 
-Recorte por coordenadas
-
-Rotación manual
-
-Reducción de resolución
-
-Zoom por clic
-
-Fusión de dos imágenes con control de mezcla
-
-Visualización de histograma RGB
-
-🪄 Uso
-
-Ejecutar el programa:
-
-python tk.py
-
-
-Cargar una imagen con “Abrir imagen…”.
-
-Utilizar las pestañas para aplicar transformaciones.
-
-Guardar el resultado con “Guardar cambios”.
-
-🧩 Dependencias
-
-Python 3.10+
-
-customtkinter
-
-Pillow
-
-numpy
-
-matplotlib
-
-Instalación rápida:
-
-pip install customtkinter pillow numpy matplotlib
-
+   ```bash
+   python tk.py
