@@ -46,5 +46,5 @@ El usuario puede ajustar el brillo, contraste o binarización desde la pestaña 
 ![Aplicando brillo](images/ss3.png)
 
 ### 4️⃣ Resultado final
-El resultado puede guardarse fácilmente con **“Guardar cambios”**.
+El resultado puede guardarse fácilmente con **“Guardar cambios”**. El archivo resultante sera guardado en la misma carpeta que contiene la interfaz
 ![Resultado final](images/ss4.png)
