@@ -30,11 +30,21 @@ Permite abrir, visualizar y editar imágenes aplicando diferentes transformacion
 ### 📊 Análisis
 - Generación de **histograma RGB** embebido dentro de la interfaz  
 
----
+## 🧪 Ejemplo de uso
 
-## 🪄 Uso
+A continuación se muestra un ejemplo práctico del programa en funcionamiento:
 
-1. Ejecutar el programa desde terminal:
+### 1️⃣ Interfaz principal
+![Interfaz principal](images/ss1.png)
 
-   ```bash
-   python tk.py
+### 2️⃣ Carga de una imagen
+Al presionar **“Abrir imagen…”**, se muestra la imagen en el visor.
+![Imagen cargada](images/ss2.png)
+
+### 3️⃣ Aplicación de efectos
+El usuario puede ajustar el brillo, contraste o binarización desde la pestaña **Color**.
+![Aplicando brillo](images/ss3.png)
+
+### 4️⃣ Resultado final
+El resultado puede guardarse fácilmente con **“Guardar cambios”**.
+![Resultado final](images/ss4.png)
